@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart - React and Strapi</title>
+  <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' '*cdn.jsdelivr.net' '*unpkg.com'"> -->
+  <!-- Load Bootsrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+    crossorigin="anonymous"
+  />
+  <!-- Load Babel transpiler -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <!-- Load our Axios -->
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <!-- Load Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- React Root Component-->
+  <div id="root"></div>
+
+  <!-- Load React and React DOM -->
+  <!-- See https://reactjs.org/docs/add-react-to-a-website.html to learn more -->
+  <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+
+  <!-- Load history -->
+  <script src="https://unpkg.com/history@5/umd/history.development.js" crossorigin></script>
+
+  <!-- Load React Router and React Router DOM -->
+  <script src="https://unpkg.com/react-router@6/umd/react-router.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-router-dom@6/umd/react-router-dom.development.js" crossorigin></script>
+
+  <!-- Load React Bootstrap -->
+  <script src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js" crossorigin></script>
+
+  <!-- Load Bootstrap JavaScript Bundle with Popper (for navbar) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+  <!-- Load Masonry Grid Layout Library -->
+  <!-- <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script> -->
+
+
+  <!-- Load React Application -->
+  <!-- <script src="cart.jsx" defer type="text/babel"></script>
+  <script src="shop.jsx" defer type="text/babel"></script> -->
+  <script src="store.js" defer type="text/babel"></script>
+  <script src="checkout.js" defer type="text/babel"></script>
+  <script src="cart.js" defer type="text/babel"></script>
+  <script src="index.js" defer type="text/babel"></script>
+</body>
+</html>
